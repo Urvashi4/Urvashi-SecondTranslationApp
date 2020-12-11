@@ -27,8 +27,9 @@ textarea {
 body {
     background-image: url("/images/img2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     font-family: 'Kalam', cursive;
+    width: 100%;
 }
 
 h1 {
@@ -64,4 +65,44 @@ button:hover {
 
 textarea:hover {
     border: 2px solid #0C4A6E !important;
+}
+
+b {
+    color: var(--btn-color);
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.footer .link {
+    color: black;
+}
+
+.footer .footer-heading {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-img {
+    max-width: 40px;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
