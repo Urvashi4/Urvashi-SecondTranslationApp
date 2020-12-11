@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emoji Translator App</title>
+    <title>Pirates Translator App</title>
+    <link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Emoji Translator</h1>
-    <textarea id="userInput" placeholder="Please type your text here so that our translator will convert it to Emoji...."></textarea>
+    <header>
+    <h1>Pirate Speak Translator</h1>
+    </header>
+    <div class="main">
+    <p><b>Sample phrase:</b> You may have a jar of dirt...But i have a peg leg of rum!</p>
+
+    <textarea id="userInput" placeholder="Please type your text here ....."></textarea><br>
     <button id="btn-translator">Translate</button>
     <button id="btn-sample">Use Sample Text</button>
     <button id="btn-refresh">Refresh</button>
-    <p></p>
+    <p>Translated message will be shown here 👇</p>
     <textarea id="emojiOutput"></textarea>
+    </div>
+    
 
     <script src="/app.js" type="text/javascript"></script>
 </body>
