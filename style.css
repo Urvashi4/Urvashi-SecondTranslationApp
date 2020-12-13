@@ -25,11 +25,11 @@ textarea {
 }
 
 body {
+    margin: 0;
     background-image: url("/images/img2.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100% auto !important;
     font-family: 'Kalam', cursive;
-    width: 100%;
 }
 
 h1 {
