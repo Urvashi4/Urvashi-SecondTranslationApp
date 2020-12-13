@@ -28,7 +28,7 @@ body {
     margin: 0;
     background-image: url("/images/img2.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto !important;
+    background-size: auto;
     font-family: 'Kalam', cursive;
 }
 
